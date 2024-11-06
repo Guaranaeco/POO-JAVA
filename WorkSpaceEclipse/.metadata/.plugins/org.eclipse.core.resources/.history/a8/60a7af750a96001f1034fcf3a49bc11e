@@ -1,0 +1,50 @@
+package pilhaDinamica;
+
+public class PilhaDinamica {
+	//atributos
+	no topo;
+	public static class no {
+		public int elemento;//propriedade
+		public no prox;//propriedade
+		public void pop() {
+			// TODO Auto-generated method stub
+			
+		}
+		public void push() {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+	//metodos = funcionalidades
+		
+	
+	public void remover () {
+		if (topo != null) {
+			System.out.println("Elemento removido: " + topo.elemento);
+			topo.pop();
+		} else {
+			System.out.println("A pilha está vazia");
+		}
+		
+	}
+	
+	public void listar () {
+		no aux = topo;//variavel auxiliar criada para preservar o valor de topo
+		while (aux != null) {//enquanto aux for diferente de null, exiba:
+			System.out.println(aux.elemento);
+			aux = aux.prox;
+		}
+		
+	}
+
+
+	public void push(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+
+}
+

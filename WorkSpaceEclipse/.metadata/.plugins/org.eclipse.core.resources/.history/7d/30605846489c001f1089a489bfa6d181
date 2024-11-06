@@ -1,0 +1,48 @@
+package p2;
+
+public class SistemaDeCompras {
+	public static() {
+	 Scanner scanner = new Scanner(System.in);
+     FilaDeCompras listaDeCompras = new FilaDeCompras();
+
+     while (true) {
+         System.out.println("\nEscolha uma opção:");
+         System.out.println("1 - Adicionar item");
+         System.out.println("2 - Remover item");
+         System.out.println("3 - Exibir lista de compras");
+         System.out.println("4 - Sair");
+         System.out.print("Opção: ");
+         int opcao = scanner.nextInt();
+         scanner.nextLine(); // Limpa o buffer
+
+         switch (opcao) {
+             case 1:
+                 System.out.print("Nome do item: ");
+                 String nome = scanner.nextLine();
+                 System.out.print("Quantidade: ");
+                 int quantidade = scanner.nextInt();
+                 System.out.print("Valor unitário: R$ ");
+                 double valor = scanner.nextDouble();
+                 listaDeCompras.inserirElemento(nome, quantidade, valor);
+                 break;
+
+             case 2:
+                 listaDeCompras.removerElemento();
+                 break;
+
+             case 3:
+                 listaDeCompras.exibirFila();
+                 break;
+
+             case 4:
+                 System.out.println("Saindo do sistema...");
+                 scanner.close();
+                 return;
+
+             default:
+                 System.out.println("Opção inválida! Tente novamente.");
+         }
+     }
+     }
+ }
+

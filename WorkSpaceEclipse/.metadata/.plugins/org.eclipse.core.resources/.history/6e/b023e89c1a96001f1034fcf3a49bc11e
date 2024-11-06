@@ -1,0 +1,32 @@
+package arrays;
+
+public class Ex02 {
+	
+	public static void main(String[] Args) {
+		double[] num = {7, 6.2, 0, 7.4, 10, 8.2, 9.2, 5};
+		
+		exibirVetor(num);
+		somaVetor(num);
+		
+	}
+
+	public static void exibirVetor(double[] num) {
+		for(double n : num) {
+			System.out.print("[" + n + "] ");
+			
+		}
+	}
+	
+	public static double somaVetor(double[] num) {
+		double soma = 0;
+		for(double n : num) {
+			soma += n;
+		}
+		System.out.println(soma);
+		return soma;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,17 @@
+package pilhaDinamica;
+
+public class PilhaDinamicaTeste {
+	public static void main(String[] args) {
+		
+		PilhaDinamica pd = new PilhaDinamica();
+		pd.push(2);
+		pd.push(3);
+		
+		
+		
+		
+		pd.remover();
+		pd.listar();
+	}
+
+}

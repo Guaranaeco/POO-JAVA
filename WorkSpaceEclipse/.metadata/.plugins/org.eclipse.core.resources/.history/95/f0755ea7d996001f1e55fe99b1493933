@@ -1,0 +1,19 @@
+package classesObjetos;
+
+public class Aula {
+	int inicio;
+	int fim;
+	String disciplina;
+	boolean aula;
+	
+	void teveAula() {
+		this.aula = true;
+		System.out.println("Aula normal hoje");
+	}
+	
+	void semAula() {
+		this.aula = false;
+		System.out.println("Professor faltou hoje, sem aula.");
+	}
+}
+

@@ -1,0 +1,41 @@
+package pilhaDinamica;
+
+public class PilhaDinamica {
+	//atributos
+	no topo;
+	public static class no {
+		public int elemento;//propriedade
+		public no prox;//propriedade
+	}
+	//metodos = funcionalidades
+	public void inserir (int elemento) {
+		no novo = new no ();
+		novo.elemento = elemento;// start inicial, recebe o elemento
+		novo.prox = topo; //sobreposição para se tornar o topo 
+		topo = novo; //enfim se torna o topo
+		
+		}
+	
+	public void remover () {
+		if (topo != null) {
+			System.out.println("Elemento removido: " + topo.elemento);
+			topo = topo.prox;
+		} else {
+			System.out.println("A pilha está vazia");
+		}
+		
+	}
+	public void inverter (int elemento) {
+		no aux = new no();
+		aux.elemento = topo.elemento;
+				
+	
+		}
+		
+		}
+	
+	
+
+
+}
+

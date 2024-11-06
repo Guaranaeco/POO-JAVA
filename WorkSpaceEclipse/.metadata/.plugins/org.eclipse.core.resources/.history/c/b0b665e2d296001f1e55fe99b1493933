@@ -1,0 +1,11 @@
+package classesObjetos;
+
+public class Caneta {
+	// atributos
+	public static void main(String[] args) {
+		
+	}
+	
+}
+
+

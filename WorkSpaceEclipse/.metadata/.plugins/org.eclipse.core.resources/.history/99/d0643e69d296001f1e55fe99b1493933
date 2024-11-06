@@ -1,0 +1,11 @@
+package classesObjetos;
+
+public class Objetos {
+	// atributos
+	public static void main(String[] args) {
+		
+	}
+	
+}
+
+

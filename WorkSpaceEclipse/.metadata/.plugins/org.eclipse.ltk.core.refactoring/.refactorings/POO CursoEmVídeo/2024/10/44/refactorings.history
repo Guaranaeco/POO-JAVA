@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;classesObjetos.Objetos&apos; to &apos;Caneta&apos;&#x0D;&#x0A;- Original project: &apos;POO CursoEmVídeo&apos;&#x0D;&#x0A;- Original element: &apos;classesObjetos.Objetos&apos;&#x0D;&#x0A;- Renamed element: &apos;classesObjetos.Caneta&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Objetos&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;classesObjetos{Objetos.java[Objetos" matchStrategy="1" name="Caneta" qualified="false" references="true" similarDeclarations="false" stamp="1730301592501" textual="false" version="1.0"/>
+</session>

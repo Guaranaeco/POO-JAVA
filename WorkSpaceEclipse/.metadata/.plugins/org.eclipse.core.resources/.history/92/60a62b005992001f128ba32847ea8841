@@ -1,0 +1,17 @@
+package pilhaDinamica;
+
+public class PilhaDinamicaTeste {
+	public static void main(String[] args) {
+		
+		PilhaDinamica pd = new PilhaDinamica();
+		pd.inserir(50);
+		pd.inserir(70);
+		pd.inserir(90);//os ultimos serão os primeiros :)
+		
+		pd.listar();
+		
+		pd.remover();
+		pd.listar();
+	}
+
+}
